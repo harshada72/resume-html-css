@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&family=IBM+Plex+Sans:wght@200;300;400;500;600&family=Montserrat:wght@300;400;500;600;900&family=Ubuntu+Mono:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600&family=Montserrat:wght@300;400;500;600;900&family=Ubuntu+Mono:wght@400;700&display=swap');
+body {
+    height: 842px;
+    width: 595px;
+    margin: 0 auto;
+}
+
+
+section.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: top;
+}
+
+section.header .profile-pic{
+    height: 144px;
+    width: 115px;
+    background-image: url("../images/profile-pic.png");
+}
+
+section.header .introduction{
+    margin-left: 20px;
+}
+
+section.header .introduction .title {
+    margin-top: 0;
+    color: #3E6AF2;
+    font-family: Hind, sans-serif;
+    font-size: 10px;
+}
+
+section.header .introduction .name {
+    margin: 0;
+    color: #212121;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+section.header .introduction .sub-fields {
+    margin-top: 0;
+    color: #212121;
+    font-family: Hind, sans-serif;
+    font-size: 11px;
+    opacity: 0.6;
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+}
+
+section.header .introduction p {
+    margin: 0;
+}
+
+section.header .introduction .sub-fields .info-icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+section.header .introduction .sub-fields .custom-text{
+    color: #212121;
+    text-decoration: none;
+}
+
+section.header .introduction .sub-fields .info-icon.email-icon{
+    background-image: url("../images/Icons/Email.svg");
+}
+section.header .introduction .sub-fields .info-icon.location-icon{
+    background-image: url("../images/Icons/Address.svg");
+}
+section.header .introduction .sub-fields .info-icon.github-icon{
+    background-image: url("../images/Icons/Github.svg");
+}
+section.header .introduction .sub-fields .info-icon.phone-icon{
+    background-image: url("../images/Icons/Phone.svg");
+}
+
+
+section > .section-title{
+    display: flex;
+    align-items: center;
+}
+
+section > .section-title > h4  {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+section > .section-title > div{
+    width: 100%;
+    height: 2px;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+}
+
+section.profile{
+    display: flex;
+}
+
+section.profile .sub-section{
+   width: 50%;
+}
+
+section.profile .sub-section.profile-summery{
+    padding-right: 15px;
+    width: 70%;
+}
+
+section.profile .sub-section .section-title{
+    display: flex;
+    align-items: center;
+}
+
+section.profile .sub-section .section-title > h4  {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+section.profile .sub-section .section-title > div{
+    width: 100%;
+    height: 2px;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+}
+
+section.profile .sub-section .section-content .profile-summery,
+section.profile .sub-section .section-content .skills-list,
+.section-content .content-row .content-details .content-details-text{
+    font-family: Hind, sans-serif;
+    font-size: 11px;
+}
+
+section.profile .sub-section .section-content .skills-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 110px;
+}
+
+section.profile .sub-section .section-content .skills-list .skills-items{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+section.profile .sub-section .section-content .skills-list .skills-items:before{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border: 3px solid #3E6AF2;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.section-content .content-row{
+    display: flex;
+}
+
+.section-content .content-row .period{
+    width: 12%;
+    font-size: 10px;
+    color: #3E6AF2;
+    font-family: Hind, sans-serif;
+}
+
+.section-content .content-row .period p{
+    padding-right: 10px;
+}
+
+
+.section-content .content-row .content-details{
+    width: 88%;
+}
+
+.section-content .content-row .content-details .content-title{
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-content .content-row .content-details .content-title .sub-title{
+    font-family: Hind, sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+
+.section-content .content-row .content-details .content-details-text{
+    opacity: 0.6;
+}
+
+section.technologies{
+    padding-bottom: 40px;
+}
+
+section.technologies .section-content{
+    display: flex;
+}
+
+section.technologies .technology-box{
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+section.technologies .technology-box .technology-image{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+section.technologies .technology-box .technology-image.html{
+    background-image: url("../images/html.png");
+}
+section.technologies .technology-box .technology-image.css{
+    background-image: url("../images/css.png");
+}
+section.technologies .technology-box .technology-image.bootstrap{
+    background-image: url("../images/bootstrap.png");
+}
+section.technologies .technology-box .technology-image.tailwind{
+    background-image: url("../images/tailwind.png");
+}
+section.technologies .technology-box .technology-image.javascript{
+    background-image: url("../images/javascript.png");
+}
+section.technologies .technology-box .technology-image.reactjs{
+    background-image: url("../images/react.png");
+}
+section.technologies .technology-box .technology-image.figma{
+    background-image: url("../images/figma.png");
+}
+
+
+
+
+
